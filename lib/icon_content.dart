@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-const TextStyle textStyle = TextStyle(fontSize: 18.0, color: Color(0xFCF9F4FF));
+import 'constants.dart';
 
 class IconContent extends StatelessWidget {
   final String text;
@@ -19,7 +18,7 @@ class IconContent extends StatelessWidget {
         ),
         Text(
           text,
-          style: textStyle,
+          style: klabelTextStyle,
         )
       ],
     );
