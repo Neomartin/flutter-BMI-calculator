@@ -3,8 +3,12 @@ import 'package:flutter/material.dart';
 // TEXT STYLE CONSTANTS
 const TextStyle klabelTextStyle = TextStyle(fontSize: 18.0, color: Color(0xFCF9F4FF));
 const TextStyle kNumberTextStyle = TextStyle(fontSize: 50.0, fontWeight: FontWeight.w900 );
-const TextStyle kResultTextStyle = TextStyle(fontWeight: FontWeight.w900, fontSize: 90.0);
 const TextStyle kLargeButtonText = TextStyle(fontSize: 24.0);
+//    Results
+const TextStyle kBMITextStyle = TextStyle(fontWeight: FontWeight.w900, fontSize: 100.0);
+const TextStyle kInterpretationTextStyle = TextStyle(fontSize: 18.0, );
+const TextStyle kResultTextStyle = TextStyle(color: Colors.green, fontWeight: FontWeight.bold, fontSize: 24.0);
+const TextStyle kTest =  TextStyle(color: Colors.green, fontWeight: FontWeight.bold, fontSize: 24.0);
 
 const kbottomContainerHeight = 80.0;
 const Color kactiveCardBg = Color(0xFF1F1F2E);

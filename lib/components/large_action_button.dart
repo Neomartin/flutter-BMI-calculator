@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'constants.dart';
+import 'package:bmi_calculator/constants.dart';
 
 class LargeActionButton extends StatelessWidget {
   final String text;
@@ -11,7 +11,7 @@ class LargeActionButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: height,
-      padding: EdgeInsets.only(bottom: 20.0),
+      padding: const EdgeInsets.only(bottom: 20.0),
       width: double.infinity,
       color: kprimaryColor,
       child: Center(child: Text(text, style: kLargeButtonText,)),
